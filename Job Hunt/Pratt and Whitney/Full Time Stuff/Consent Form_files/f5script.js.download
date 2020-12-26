@@ -1,0 +1,60 @@
+		// Disable F5 - Refresh					
+		var isIE = ( navigator.userAgent.toLowerCase().indexOf("msie") != -1 );
+	
+		function interceptKeyDown(e) 
+		{	
+			keyCode = e.keyCode;
+			
+			// F5
+			if ( keyCode == 116 )
+			{	
+				if( isIE )	
+				{
+					// IE only
+					e.keyCode = 505;
+				}			
+				return false;		
+			}	
+		}
+	
+		function interceptKeyPress(e) 
+		{		
+			if( !e ) 
+			{		
+				if( window.event ) e = window.event;
+				else return;		
+			}
+			
+			//NS 4, NS 6+, Mozilla 0.9+, Opera
+			if( typeof( e.which ) == 'number' ) 
+			{		
+				var keyCode = e.keyCode ? e.keyCode : e.which ? e.which : void 0;
+			
+				if(e.charCode == null || e.charCode == 0 )
+				{		
+					// F5
+					if ( keyCode == 116 )
+					{
+						e.stopPropagation();
+						e.preventDefault();						
+					}		
+				}		
+			}
+		}
+	
+		function attachEventListener( obj, type, func, capture ) 
+		{	
+			if(window.addEventListener)
+			{ 
+				// Mozilla, Netscape, Firefox	
+				obj.addEventListener( type, func, capture );	
+			} 
+			else
+			{ 
+				// IE	
+				obj.attachEvent( 'on' + type, func );	
+			}	
+		}	
+		
+		attachEventListener(document,"keydown",interceptKeyDown,true);
+		attachEventListener(document,"keypress",interceptKeyPress,true);

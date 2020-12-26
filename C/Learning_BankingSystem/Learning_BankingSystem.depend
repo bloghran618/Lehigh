@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1407729657 source:c:\users\brian\desktop\school\c\learning_bankingsystem\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+

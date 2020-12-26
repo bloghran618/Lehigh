@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1406630872 source:c:\users\brian\desktop\school\c\learning\main.c
+	<stdio.h>
+
+1406630895 source:c:\users\brian\desktop\school\c\learning\2_if_statement.c
+	<stdio.h>
+
+1406631506 source:c:\users\brian\desktop\school\c\learning\1_input_output.c
+	<stdio.h>
+

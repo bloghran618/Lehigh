@@ -1,0 +1,352 @@
+/*  Online Applications Cascading Style Sheet  */
+/*  Specialty Screening */
+
+/*  Last Updated: 04/09/2009  */
+/*  Numbers listed in comments relate to CSS Color Location Diagram */
+
+/*  application title - #1 */
+.appTitleFont {
+	font-size: 14pt;
+	font-weight: bold;
+	color: #1C1C1C;
+	background-color: #E9E9E9
+}
+
+/*  Base Background Color  */
+.bgWhite {
+	background-color: #E9E9E9;
+}	
+
+/*  Form Background Color  */
+.bgData {
+      background-color:#E9E9E9;
+}
+
+/*  Side navigation background color - #2 */
+.bgSideNav {
+    background-color: #9B9B9B; 
+    
+}
+
+/* Header Background - #8 */
+/* UTC Update Color */
+.bgCustomerBrand {
+	background-color: #D6DADE;
+	background-image: url(ApplicantResourceServlet?type=bgImage&groupID=641);
+	background-repeat: no-repeat;
+}
+
+.bgForm {
+	background-color: #E9E9E9;
+}
+
+.bgGrey {
+	background-color:#eeeeee;
+}	
+	
+/*  Side navigation panel - #3 */
+.appNavCartouche {
+	margin-left: 5px;
+	margin-right: 5px; /* Cartouche background color - #4 */
+	background-color: #E9E9E9; /*padding: 2;
+	border: 1; */
+/* Cartouche border color  - #5 */
+	border: thin solid Black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold; /* Cartouche current page text color - #6 */
+	color: Black;
+}
+
+.sectionTitleFont {
+	font-size: 12pt;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.sectionSeparationTitle {
+	font-size: 10pt;
+	font-weight: bold;
+	color: White;
+}
+/* Header Text */
+/* Updated for UTC */
+.textTop {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold; /* Header Text - #7 */
+	color: #545559;
+	padding-left: 10pt;
+	padding-top: 5pt;
+	bottom: 5%;
+}
+
+/* primary1  */
+.appPrimaryColor {
+	color: #CA0024;
+
+}
+
+/* primary2 UPDATED FOR UTC*/
+.appSecondaryColor {
+	color: #0D3D69;
+    font-weight: bold;
+}
+
+.appEmptyBorder {
+	margin-left: 20px;
+	margin-right: 12px;
+}
+
+/* border2 */
+.textBold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.sectionTitleFont {
+      font-size: 12pt;
+      font-weight: bold;
+      /*  Title Area Text Color - #9 */
+      color: #FFFFFF;
+}
+
+
+
+/* start navigator */
+.flowNavigator {
+	background-color: white;
+	border: 2px solid #FFFFFF;
+	padding-left: 8px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.flowNavigator_HeaderItem {
+	font-weight: bold;
+	color: black;
+	padding: 2 0 2 4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+/* UPDATED FOR UTC */
+.flowNavigator_HeaderItem-Selectable {
+	cursor: pointer;
+	color: #0D3D69;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.flowNavigator_HeaderItem-Hilite {
+	color: white;
+    background-color: #3B3B3B;
+	cursor: default;
+}
+
+/* UPDATED FOR UTC   */
+.flowNavigator_SectionItem {
+	font-weight: normal;
+    /*  Disabled link text color -#10 */
+	color: #0D3D69;
+	cursor: pointer;
+	padding: 2 0 2 4;
+}
+
+.flowNavigator_SectionItem-Hilite {
+    /* Cartouche highlight current page name - #11 */
+	color: white;
+	background-color: #3B3B3B;
+}
+
+.flowNavigator_Disable {
+	color: gray;
+	cursor: default;
+}
+
+/* primary1  Title Area */
+.rowFormHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+    /* Title area background color - #12 */
+	background-color: #6E6E6E;
+	padding-left: 10pt;
+}
+
+/*  Secondary Area UPDATED FONT COLOR FOR UTC */
+.rowFormEntrySection {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold; /* Secondary Area Text Color - #13 */
+	color: #0D3D69; /* Secondary Area Background Color - #14 */
+	background-color: #CCCCCC;
+	padding-left: 10pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+/* Summary Area  */
+.rowSummaryHeader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+    /* Summary area background color - #15 */
+	background-color: #CA0024;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border: 
+	border-right-style: solid;
+	border-left-style: solid;
+    /* Summary area borders - #16 */
+	border-right-color: #6E6E6E;
+	border-left-color: #6E6E6E;
+    /* Summary area text color - #17 */
+	color: #FFFFFF;
+	margin-left: 20px;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.rowSummaryColumns {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+    /* Summary column header text color - #18 */
+	color: #FFFFFF;
+	background-color: #6E6E6E;
+	border-bottom-style: solid;
+	border-bottom-color: #6E6E6E;
+	border-bottom-width: thin;
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+}
+
+.textText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;	
+	font-weight: normal;
+	color: #6E6E6E;
+}
+
+.textBoldRed {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.textEntryItem {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0000CC;
+	padding-left: 4pt;
+	padding-right: 2pt;
+	text-decoration: underline;
+}
+
+.paneWarning {
+	border-collapse: collapse;
+	border-width: 2;
+	border-color: #FF0000;
+	border-style: solid;
+	margin-left: 20px;
+	margin-right: 12px;
+	background-color: #E9E9E9;
+	padding: 4;
+	border: 2;
+}
+
+/* UPDATED COLOR FOR UTC */
+.paneInstruction {
+	border-collapse: collapse; /* Instruction Pane border color - #19 */
+	border: solid #0D3D69; /* Instruction Pane background color - #20 */
+	background-color: #FFFFFF;
+	margin-left: 20px;
+	margin-right: 12px;
+}
+
+/*  UPDATED COLOR FOR UTC */
+.paneWelcome {
+	border-collapse: collapse;
+	border-width: 2;
+	border-color: #OD3D69;
+	border-style: solid;
+	background-color: #E9E9E9;
+	border: 2;
+	margin-left: 12px;
+	margin-right: 12px;
+	padding: 0;
+}
+/* UTC Update font color*/  
+.welcomeTitleFont {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;    
+    font-weight: bold;
+    color: #0D3D69;
+	 background-color: #E9E9E9
+}
+
+.borderSummary {
+    border-collapse: collapse;
+    /* Summary Table grid color - #21 */ 
+    border-color: #6E6E6E;
+    border-style: solid;
+    margin-left: 20px;
+    margin-right: 12px;
+    background-color: #FFFFFF;
+    padding: 0;
+    border: 2;
+}
+
+/* Summary (Even) Row background color - #22 */
+.rowSummaryEven {
+    background-color: #FFFFFF;
+}
+
+/* Summary (Even) Row background color - #23 */
+.rowSummaryOdd {
+    background-color: #EEEEEE;
+}
+
+.lableColor {
+    color:black;
+}
+
+.indent12 {
+    padding-left: 12px;
+}
+.margin12 {
+    margin-left: 12px;
+}
+
+.pointer {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.gFieldLabel{
+     color: black;
+ }
+ 
+ .gFieldLabel .required{
+     font-weight: bold;
+ }
+ 
+ .gFieldLabel .readOnly{
+     font-weight: bold;
+ }
+ 
+ .gFieldLabel .requiredIndicator{
+     color: red;
+ }

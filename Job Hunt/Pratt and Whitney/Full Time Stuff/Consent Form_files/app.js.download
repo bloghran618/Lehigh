@@ -1,0 +1,110 @@
+var pageWrapHeight = ""
+$( document ).ready(function() {
+	//setFooterBtn($(".footer-btn"));
+	setVerticalCenterPositioning($(".msg-bar .fa"), $(".msg-bar"));
+	setReviewImageHeight();
+	
+});
+$( window ).resize(function() {
+	//setFooterBtn($(".footer-btn"));
+	setVerticalCenterPositioning($(".msg-bar .fa"), $(".msg-bar"));
+	setReviewImageHeight();
+});
+
+function setFooter(){
+	
+}
+function setFooterBtn(footerBtn){
+	
+	var w = $(window).width();
+	var offset = w/2 - $(footerBtn).width()/2;
+	$(footerBtn).css("position", "absolute");
+	$(footerBtn).css("max-width", "480px");
+	$(footerBtn).css("left", offset+"px");
+	// pageWrapHeight = $(".page-wrapper").height()+$(".ea-logo > img").height()+$(".msg-bar").height()+$(".smb-footer").height()+"px";
+	// $(".smb-footer").css("position", "relative");
+	// $(".smb-footer").css("top", "0px");
+	// $(".smb-footer").css("margin-top", "20px");
+}
+
+function setVerticalCenterPositioning(element, container){
+	var offsetTop = $(container).height()/2 - $(element).height()/2;
+	$(element).css("margin-top", offsetTop+"px");
+}
+
+function setReviewImageHeight(){
+	$("#reviewImg").css("height", $(window).height() - ($(".navbar").height()+275)+"px");
+	$("#reviewImg").css("width", "auto");
+}
+
+
+/****language js*******/
+
+$(document).ready(function(){
+        var itaImgLink = "http://www.roemheld.de/IT/Data/Images/Address/Italien.gif";
+    	var engImgLink = "http://www.roemheld.de/IT/Data/Images/Address/Grossbritanien.gif";
+		var deuImgLink = "http://www.roemheld.de/IT/Data/Images/Address/Deutschland.gif";
+		var fraImgLink = "http://www.roemheld.de/IT/Data/Images/Address/Frankreich.gif";
+
+		var imgBtnSel = $('#imgBtnSel');
+		var imgBtnIta = $('#imgBtnIta');
+		var imgBtnEng = $('#imgBtnEng');
+		var imgBtnDeu = $('#imgBtnDeu');
+		var imgBtnFra = $('#imgBtnFra');
+
+		var imgNavSel = $('#imgNavSel');
+		var imgNavIta = $('#imgNavIta');
+		var imgNavEng = $('#imgNavEng');
+		var imgNavDeu = $('#imgNavDeu');
+		var imgNavFra = $('#imgNavFra');
+
+		var spanNavSel = $('#lanNavSel');
+		var spanBtnSel = $('#lanBtnSel');
+
+		imgBtnSel.attr("src",itaImgLink);
+		imgBtnIta.attr("src",itaImgLink);
+		imgBtnEng.attr("src",engImgLink);
+		imgBtnDeu.attr("src",deuImgLink);
+		imgBtnFra.attr("src",fraImgLink);
+
+		imgNavSel.attr("src",itaImgLink);
+		imgNavIta.attr("src",itaImgLink);
+		imgNavEng.attr("src",engImgLink);
+		imgNavDeu.attr("src",deuImgLink);
+		imgNavFra.attr("src",fraImgLink);
+
+		$( ".language" ).on( "click", function( event ) {
+			var currentId = $(this).attr('id');
+
+			if(currentId == "navIta") {
+				imgNavSel.attr("src",itaImgLink);
+				spanNavSel.text("ITA");
+			} else if (currentId == "navEng") {
+				imgNavSel.attr("src",engImgLink);
+				spanNavSel.text("ENG");
+			} else if (currentId == "navDeu") {
+				imgNavSel.attr("src",deuImgLink);
+				spanNavSel.text("DEU");
+			} else if (currentId == "navFra") {
+				imgNavSel.attr("src",fraImgLink);
+				spanNavSel.text("FRA");
+			}
+
+			if(currentId == "btnIta") {
+				imgBtnSel.attr("src",itaImgLink);
+				spanBtnSel.text("ITA");
+			} else if (currentId == "btnEng") {
+				imgBtnSel.attr("src",engImgLink);
+				spanBtnSel.text("ENG");
+			} else if (currentId == "btnDeu") {
+				imgBtnSel.attr("src",deuImgLink);
+				spanBtnSel.text("DEU");
+			} else if (currentId == "btnFra") {
+				imgBtnSel.attr("src",fraImgLink);
+				spanBtnSel.text("FRA");
+			}
+			
+		});
+});
+
+/****language js*******/

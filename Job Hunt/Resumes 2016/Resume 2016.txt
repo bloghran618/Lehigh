@@ -1,0 +1,134 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.4in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Brian Loughran} % Your name
+\address{41 Cambridge Ave. Denville NJ, 07834} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(201) 317 3254 \\ bloughran618@gmail.com} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Lehigh University} \hfill {\em 2013 - 2017} 
+\\ B.S. Mechanical Engineering \hfill { GPA - 3.4}
+\\Minors in Aerospace Engineering and Business 
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Technical Strengths}
+
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+%Computer Languages &  C/C++, MATLAB \\
+%Software \& Tools & HTML, LaTeX, Excel, Gerris, Mathematica, ASPEN Plus, Tecplot \\
+%\end{tabular}
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Pratt \& Whitney}{June 2016 - August 2016}{Cold Section Methods}{East Hartford, CT}
+\item Built and implemented a classification tool for data re-use of over 18,000 high volume external jet engine components. Successfully campaigned to numerous groups to gather support and \$25,000 in funding for cross-organizational implementation of the tool as standard work.
+\end{rSubsection}
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{Aesculap Spine}{January 2016 - October 2016}{New Product Development}{Center Valley, PA}
+\item Worked in a team of five to create a medical grade parallel distracter device for surgical repair of degenerative disc disease in the lower spine. Thorough business case built for the product, including working prototype, FEA analysis, IP research, cost estimate and cash flow forecast.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Alcatel-Lucent Bell Labs}{June 2015 - August 2015}{Thermal Design Engineer}{Providence, NJ}
+\item Designed and fabricated a wind tunnel for thermal flow characterization over advanced 4G LTE and eventual 5G products. Thermal chamber testing employed to determine the maximum rated temperature. Acoustic testing of noise levels in fully anechoic chamber of cooling fans.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Lehigh University}{August 2014 - December 2014}{Teacher's Assistant}{Bethlehem, PA}
+\item Supported professor in teaching MATLAB and Arduino programming languages in Lehigh University's Applied Engineering Computer Methods class. Bi-weekly responsibilities included assisting students in analysis and debug of hardware and software components of electro-mechanical systems.
+\end{rSubsection}
+
+
+\end{rSection}
+
+
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Leadership}
+
+\begin{rSubsection}{Treasurer \it{(Lehigh Ice Hockey)} }{August 2014 - May 2016}{}{}
+\item Budgeted team funds of
+\$80,000, and forecasted future costs to ensure smooth operation of the club 
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Master of Ceremonies \it{(Alcatel-Lucent)} } {August 2015}{}{}
+\item Elected by fellow interns to organize and host the end-of-summer
+intern presentations
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Intellectual Development Chair \it{(Kappa Sigma, Beta Iota)}}{April 2014 - October 2015}{}{}
+\item Introduced 5 bi-annual scholarships to recognize students of high academic standing
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills} \itemsep -2pt
+\item Proficient with MATLAB, C++, Java, Python, Arduino, SolidWorks, NX Cast, Pro/Engineer, LabVIEW, Autodesk Mechanical, SIMULINK, Simul8
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+
+\end{document}
+
+%A link:
+%https://www.overleaf.com/5758618bkqjgy#/18846565/

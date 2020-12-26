@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1407368647 source:c:\users\brian\desktop\school\c\snake_game\main.c
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<conio.h>
+	<time.h>
+	<ctype.h>
+	<time.h>
+	<windows.h>
+	<process.h>
+
